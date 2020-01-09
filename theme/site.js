@@ -4,7 +4,9 @@ function showFull(path){
 	}
 	var layer = '<div id="show-image" onclick="closeFull()"></div>';
 	$('body').prepend(layer);
-	var image = '<img src="'+ path + '">';
+	var layer1 = '<div style="height: 10%;"></div>';
+	$('#show-image').append(layer1);
+	var image = '<img src="'+ path + '" />';
 	$('#show-image').append(image);
 	$(document).scroll(closeFull);
 }
