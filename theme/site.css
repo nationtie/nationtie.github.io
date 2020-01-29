@@ -48,7 +48,7 @@ body:not(.screen-thin) .thin-only{
 	height: 40px;
 	z-index: 4;
 	position: fixed;
-	background-color:rgba(0,0,0, 0.7);
+	background-color:rgba(0,0,0, 0.85);
 }
 #menu img{
 	border: none;
@@ -65,6 +65,8 @@ body:not(.screen-thin) .thin-only{
 }
 .circle{
   background-color:black;
+  border-bottom: #432A09 solid 2px;
+  border-width: 0 0 2px 0;
   border-radius: 30px;
 }
 .button{
