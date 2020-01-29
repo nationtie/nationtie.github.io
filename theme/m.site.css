@@ -421,29 +421,29 @@ body.screen-very-thin{font-size: 14px;}
 
 /* m.special */
 body{
-    background:url(background/background1.png) no-repeat fixed;
+    background:url(m.background/background1.png) no-repeat fixed;
     background-size: 100% 100vh;
 }
 #intro{
     height:180vh;
-    background:rgb(40,25,16) url(background/intro.png) no-repeat;
+    background:rgb(40,25,16) url(m.background/intro.png) no-repeat;
     background-size: 100% 77%;
     position:relative;
 }
 #about{
-  background:url(background/background1.png) no-repeat fixed;
+  background:url(m.background/background1.png) no-repeat fixed;
   background-size: 100vw 140vh;
 }
 #products{
-  background:rgb(40,25,16) url(background/background2.png) repeat;
+  background:rgb(40,25,16) url(m.background/background2.png) repeat;
 }
 #production{
-  background:url(background/background1.png) no-repeat fixed;
+  background:url(m.background/background1.png) no-repeat fixed;
   background-size: 100vw 140vh;
   background-position:bottom;
   text-align: center;
 }
 #contact{
-  background:rgb(40,25,16) url(background/background3.png) no-repeat;
+  background:rgb(40,25,16) url(m.background/background3.png) no-repeat;
   background-size: 100vw 100%;
 }
